@@ -1,0 +1,17 @@
+# Maven
+target/
+
+# TestNG reports
+test-output/
+
+# Screenshots
+screenshots/
+*.png
+
+# Logs
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/

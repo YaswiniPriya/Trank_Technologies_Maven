@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class PaperTradingPage {
+	
 	@FindBy (xpath="//a[text()='Paper Trading']")
 	WebElement paper_trading;
 	
@@ -33,6 +34,7 @@ public class PaperTradingPage {
 	}
 	
 	public PaperTradingPage(WebDriver driver) {
+		
 		PageFactory.initElements(driver, this);
 
 	}
