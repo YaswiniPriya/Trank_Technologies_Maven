@@ -1,12 +1,6 @@
 package tests;
 
 import java.io.IOException;
-import java.util.List;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
@@ -15,7 +9,7 @@ import pages.GetAFreeQuotePage;
 import pages.PaperTradingPage;
 import pages.StockTradingPage;
 
-public class Trank_Technologies_Test extends BaseTest{
+public class TrankTechnologiesTest extends BaseTest{
 	
 		
 
