@@ -9,8 +9,6 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
 
-
-
 public class BaseTest {
 	protected WebDriver driver = new ChromeDriver();
 	protected Actions a =new Actions(driver);
