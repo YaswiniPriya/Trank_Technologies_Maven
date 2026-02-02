@@ -52,7 +52,8 @@ public class GetAFreeQuotePage {
 		PageFactory.initElements(driver, this);
 
 	}
-	public void freequote_click() {
+	public void freequote_click() throws InterruptedException {
+		Thread.sleep(5000);
 		freequote.click();
 	}
 	public void name_s(String s) {
