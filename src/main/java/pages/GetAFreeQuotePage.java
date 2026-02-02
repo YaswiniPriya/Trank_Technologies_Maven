@@ -16,7 +16,7 @@ import org.openqa.selenium.support.ui.Select;
 public class GetAFreeQuotePage {
 	private WebDriver driver;
 	
-	@FindBy (xpath="(//a[@href="#"])[1]")
+	@FindBy (xpath="(//a[@href=\"#\"])[1]")
 	WebElement freequote;
 	
 	@FindBy (xpath="//input[@placeholder=\"Your Name\"]")
